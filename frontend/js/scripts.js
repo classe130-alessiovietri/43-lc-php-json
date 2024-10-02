@@ -13,7 +13,7 @@ createApp({
     methods: {
         search() {
             axios
-                .get('http://localhost/classe130/43-lc-php-json/backend/api.php', {
+                .get('http://localhost/43-lc-php-json/backend/students_index.php', {
                     params: {
                         name: this.name
                     }
